@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-image: url("../img/Vector.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.content {
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  margin: 10px;
+  text-align: center;
+}
+
+.title2 {
+  margin: 10px;
+  text-align: center;
+  color: blue;
+  padding-bottom: 30px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="time"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="file"]::placeholder,
+input[type="time"]::placeholder,
+select::placeholder,
+textarea::placeholder {
+  font-size: 14px;
+}
+
+.inputfield.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.btn:first-child {
+  background-color: #ccc;
+}
+
+.btn:first-child:hover {
+  background-color: #999;
+}
+
+.copy {
+  width: 100%;
+}
+
+.copy h3 {
+  font-size: 14px;
+  text-align: center;
+}
+
+.copy h4 {
+  margin-top: 5px;
+  font-size: 11px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
+  .title2 {
+    font-size: 18px;
+  }
+  .content {
+    padding: 15px;
+  }
+
+  .box {
+    flex-direction: column;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .copy h3 {
+    padding-top: 20px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .copy h4 {
+    margin-top: 5px;
+    font-size: 8px;
+    text-align: center;
+  }
+}

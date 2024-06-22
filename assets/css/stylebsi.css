@@ -1,0 +1,157 @@
+.tcontainer {
+  height: 600px;
+  overflow: auto;
+}
+.content {
+  padding-top: 50px;
+width: 90%;
+margin: 0 auto;
+}
+.content h2 {
+margin: 0;
+padding: 25px 0;
+font-size: 22px;
+border-bottom: 1px solid #ebebeb;
+color: #666666;
+}
+.read .create-contact {
+display: inline-block;
+text-decoration: none;
+background-color: #38b673;
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+padding: 10px 15px;
+margin: 15px 0;
+border-radius:5px;
+}
+.read .create-contact:hover {
+background-color: #32a367;
+}
+.read table {
+width: 100%;
+padding-top: 30px;
+border-collapse: collapse;
+}
+.read table thead {
+background-color: #ebeef1;
+border-bottom: 1px solid #d3dae0;
+}
+.read table thead td {
+padding: 10px 20px;
+font-weight: bold;
+color: #767779;
+font-size: 14px;
+}
+.read table tbody tr {
+border-bottom: 1px solid #d3dae0;
+}
+
+.read table tbody tr:hover {
+background-color: #376ab7;
+}
+.read table tbody tr:hover td {
+color: #ffffff;
+}
+.read table tbody tr:hover td:nth-child(1) {
+color: #ffffff;
+}
+.read table tbody tr:hover td a {
+color: #ffffff;
+}
+.read table tbody tr td {
+padding: 0 16px;
+text-align: left;
+}
+.read table tbody tr td:nth-child(1) {
+color: #a5a7a9;
+}
+.read table tbody tr td.actions {
+padding: 8px;
+text-align: right;
+}
+.read table tbody tr td.actions2 {
+padding: 8px;
+}
+.read table tbody tr td.actions .edit {
+display: inline-flex;
+text-align: right;
+text-decoration: none;
+border-radius: 5px;
+color: #ffffff;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.actions2 .trash {
+display: inline-flex;
+text-align: left;
+text-decoration: none;
+border-radius: 5px;
+color: #ffffff;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+.read table tbody tr td.actions2 .trash {
+background-color: #b73737;
+}
+.read table tbody tr td.actions2 .trash:hover {
+background-color: #a33131;
+}
+.read table tbody tr td.actions .edit {
+background-color: #37afb7;
+}
+.read table tbody tr td.actions .edit:hover {
+background-color: #319ca3;
+}
+
+.ganjil {
+background-color: white;
+}
+
+.genap {
+background-color: #e1e6ec;
+}
+
+.detail {
+color: white;
+border-radius: 3px;
+text-decoration: none;
+background-color: #376ab7;
+padding: 5px 10px;
+}
+.read table tbody tr:hover .detail {
+color: #376ab7;
+background-color: white;
+}
+
+.search {
+display: flex;
+max-width: 300px;
+padding-bottom: 10px;
+}
+
+.cari {
+padding: 6px 4px;
+flex: 1;
+border: 1px solid #ccc;
+border-radius: 4px 0 0 4px;
+outline: none;
+}
+
+.tombol {
+padding: 6px 15px;
+border: 1px solid #007bff;
+background-color: #007bff;
+color: #fff;
+border-radius: 0 4px 4px 0;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.tombol:hover {
+background-color: #0056b3;
+}
+
+

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-size: 16px;
+    background: #004a7c;
+    color: #132c33;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a {
+    color: #005691;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #004a7c;
+  }
+  
+  form {
+    background: #fafafa;
+    width: 35%;
+    padding: 1.5rem 1.5rem 2rem;
+    border-radius: 5px;
+  }
+  
+  .header {
+    margin-bottom: 1rem;
+  }
+  
+  .judul {
+    text-align: center;
+    font-size: 2rem;
+    color: #004a7c;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+  
+  .kotak {
+    margin-bottom: 1rem;
+  }
+  
+  .kotak-input {
+    margin-bottom: 0.5rem;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #004a7c;
+  }
+  
+  .tombol {
+    background: #005691;
+    color: #fafafa;
+    border: 0;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: inherit;
+    cursor: pointer;
+  }
+  
+  .tombol:hover {
+    background: #004a7c;
+  }
+  
+  .daftar-link {
+    text-align: right;
+    margin-top: 1rem;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
